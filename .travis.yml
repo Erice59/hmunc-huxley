@@ -11,3 +11,7 @@ before_script:
 script:
     - python manage.py test
     - npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: 14cc27b8-a662-4fc8-a731-e2c6c02d0f26
